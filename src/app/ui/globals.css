@@ -1,0 +1,132 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 0, 0, 0;
+    --background-start-rgb: 255, 255, 255;
+    --background-end-rgb: 255, 255, 255;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(to bottom, transparent, rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+#smiley {
+  animation: smiley_tr 3000ms linear infinite normal;
+  height: 10rem;
+}
+
+#face {
+  stroke-width: 1px;
+  stroke: rgb(127, 127, 127);
+}
+#face:hover {
+  stroke: transparent;
+}
+
+@keyframes smiley_tr {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.cls-1 {
+  fill: none;
+  stroke: #000;
+  stroke-linecap: round;
+  stroke-miterlimit: 10;
+  stroke-width: 2px;
+}
+
+/* #lineArtSelfie {
+  position: relative;
+  opacity: 0.8;
+  transition: all 0.8s ease;
+  filter: grayscale(1);
+  border-radius: 9999px;
+  background-color: transparent;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  align-self: center;
+}
+#lineArtSelfie:hover {
+  opacity: 0;
+  transition: all 0.8s ease;
+}
+#selfie {
+  position: absolute;
+  border-radius: 9999px;
+  align-self: center;
+  transition: all 0.8s ease;
+  background-color: transparent;
+  opacity: 0;
+  top: 0;
+  aspect-ratio: 1;
+  filter: grayscale(1);
+   object-fit: cover;
+}
+#selfie:hover {
+  opacity: 1;
+  transition: all 0.8s ease;
+} */
+
+.lineArt {
+  position: relative;
+  background-image: url(./../../../public/lineart_selfie.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent;
+  border-radius: 9999px;
+  background-size: cover;
+  padding: 7rem;
+  height: 3rem;
+  width: 3rem;
+  align-self: center;
+  opacity: 0.8;
+  transition: all 0.8s ease;
+  filter: grayscale(1);
+}
+.lineArt:hover {
+  filter: none;
+}
+
+.selfie {
+  background-image: url(./../../../public/selfie.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 9999px;
+  background-size: cover;
+  top: 0;
+  right: 0;
+  padding: 7rem;
+  height: 3rem;
+  width: 3rem;
+  align-self: center;
+  transition: all 0.8s ease;
+  background-color: black;
+  opacity: 0;
+  position: absolute;
+}
+.selfie:hover {
+  opacity: 1;
+  transition: all 0.8s ease;
+}
