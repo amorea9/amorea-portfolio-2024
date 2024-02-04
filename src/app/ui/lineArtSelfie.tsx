@@ -1,7 +1,4 @@
 import React from "react";
-import Selfie from "./../../../public/selfie.png";
-import Image from "next/image";
-// import LineArt from "./../../../public/lineart_selfie."svg;
 
 export default function LineArtSelfie() {
   return (
