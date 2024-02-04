@@ -5,11 +5,10 @@ import About from "./ui/about";
 import Projects from "./ui/projects";
 import Footer from "./ui/footer";
 import Skills from "./ui/skills";
-import SingleProject from "./ui/singleProject";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between divide-y-[1px]  divide-opacity-80 ">
+    <main className="flex min-h-screen flex-col items-center justify-between divide-y-[1px]  divide-opacity-80 scroll-smooth">
       <NavMenu />
       <Hero />
       <About />
