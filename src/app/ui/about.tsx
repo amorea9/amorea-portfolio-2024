@@ -3,14 +3,14 @@ import { libreBaskerville } from "./fonts";
 
 export default function About() {
   return (
-    <div id="about" className="h-fit pt-10 scroll-m-14">
-      <article id="about_article" className="flex flex-col items-left mx-10  pb-20 gap-8  h-full sm:grid sm:grid-cols-2 sm:justify-items-center  lg:flex-row lg:mx-44 lg:pt-20 lg:gap-18 sm:items-start sm:gap-y-16 ">
-        <h2 className={`text-center text-3xl pb-5 lg:pt-16 col-span-2 ${libreBaskerville.className}`}>About</h2>
-        <div className="lineArt sm:scale-[1.2] sm:rounded-full lg:p-36 lg:ml-24 xl:p-52 col-start-1 ">
-          <div className="selfie sm:rounded-full lg:p-36 xl:p-52"></div>
+    <div id="about" className="h-fit pt-10 xl:pt-5 scroll-m-14">
+      <article id="about_article" className="flex flex-col items-left mx-10  pb-20 gap-8 h-full sm:grid sm:grid-cols-2 sm:justify-items-center  lg:flex-row lg:mx-56 lg:pt-10  lg:gap-x-16 sm:items-start sm:gap-y-16 md:gap-x-8">
+        <h2 className={`text-center text-3xl pb-5  col-span-2 ${libreBaskerville.className}`}>About</h2>
+        <div className="lineArt sm:scale-[1.2] sm:rounded-full lg:p-32  xl:p-36 col-start-1 ">
+          <div className="selfie sm:rounded-full lg:p-32 xl:p-36"></div>
         </div>
 
-        <article className="flex flex-col row-start-2 col-start-2 gap-8 sm:gap-6">
+        <article className="flex flex-col row-start-2 col-start-2 gap-8 sm:gap-6 md:px-5">
           <p className=" lg:text-base  lg:px-0 text-left ">
             My name is Alessia, an expat enjoying the land of vikings since 2020. I am currently pursuing a career in <em>front-end development</em>. <br />
             <br />

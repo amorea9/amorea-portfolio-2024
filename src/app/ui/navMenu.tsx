@@ -4,7 +4,7 @@ import { libreBaskerville, notoSans } from "./fonts";
 export default function NavMenu() {
   return (
     <div id="menu" className="sticky top-0 backdrop-blur-sm w-full border-b border-opacity-80 z-50">
-      <nav className="flex flex-row justify-between items-center my-2 mx-6 p-2 sm:mx-5 lg:mx-44">
+      <nav className="flex flex-row justify-between items-center my-2 mx-6 p-2 sm:mx-5 md:mx-44 xl:mx-80">
         <a className="text-hotPink font-medium" href="/">
           {" "}
           AMOREA

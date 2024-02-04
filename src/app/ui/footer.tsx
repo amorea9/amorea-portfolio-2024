@@ -5,8 +5,8 @@ export default function Footer() {
   return (
     <div id="footer" className="pt-10 pb-16 mx-10 h-full w-full">
       <nav id="contact" className="flex flex-col items-center gap-8">
-        <ul id="footer_list" className="flex w-full flex-col items-center gap-8 flex-wrap sm:flex-row md:justify-center md:gap-10 lg:py-2 text-center">
-          <li className="w-full">
+        <ul id="footer_list" className="flex w-full flex-col items-center gap-8  md:justify-center lg:py-2 lg:gap-10 text-center md:flex-row">
+          <li className="w-full md:w-fit">
             <a
               className="p-2 px-5 transition-all  duration-300 no-underline hover:underline hover:decoration-4
             hover:underline-offset-2 decoration-hotPink  "
@@ -16,7 +16,7 @@ export default function Footer() {
               LinkedIn
             </a>
           </li>
-          <li className="w-full">
+          <li className="w-full md:w-fit">
             <a
               className="p-2 px-5 transition-all  duration-300 no-underline hover:underline hover:decoration-4
             hover:underline-offset-2 decoration-hotPink "
@@ -26,7 +26,7 @@ export default function Footer() {
               Github
             </a>
           </li>
-          <li className="w-full">
+          <li className="w-full md:w-fit">
             <a
               className="p-2 px-5 transition-all  duration-300 no-underline hover:underline hover:decoration-4
             hover:underline-offset-2 decoration-hotPink "
