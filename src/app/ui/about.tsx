@@ -11,8 +11,8 @@ export default function About() {
         </div>
 
         <article className="flex flex-col gap-8">
-          <p className="sm:mr-3 lg:text-base sm:px-20 lg:px-0 text-center ">
-            My name is Alessia, I moved to CPH in 2020 and I am currently pursuing a career in <em>front-end development</em>. <br />
+          <p className="sm:mr-3 lg:text-base sm:px-20 lg:px-0 text-left ">
+            My name is Alessia, an expat enjoying the land of vikings since 2020. I am currently pursuing a career in <em>front-end development</em>. <br />
             <br />
             As an <b>individual</b>, I am intuitive, a critical thinker by nature and I enjoy solving problems. <br />
             <br />

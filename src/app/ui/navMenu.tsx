@@ -5,7 +5,10 @@ export default function NavMenu() {
   return (
     <div id="menu" className="sticky top-0 backdrop-blur-sm w-full border-b border-opacity-80 z-50">
       <nav className="flex flex-row justify-between items-center my-2 mx-6 p-2 md:mx-44">
-        <p className={`${libreBaskerville.className}`}>AMOREA</p>
+        <a className="text-hotPink font-medium" href="/">
+          {" "}
+          AMOREA
+        </a>
         {/* <Link id="logo" href="index.html">
           <div className="logo"></div>
         </Link> */}

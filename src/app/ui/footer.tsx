@@ -7,17 +7,31 @@ export default function Footer() {
       <nav id="contact" className="flex flex-col items-center gap-8">
         <ul id="footer_list" className="flex w-full flex-col items-center gap-8 flex-wrap sm:flex-row md:justify-center md:gap-10 lg:py-2 text-center">
           <li className="w-full">
-            <a className="p-2 px-5 hover:shadow-md hover:rounded-md transition-all duration-300 " href="https://www.linkedin.com/in/amorea/" target="_blank">
+            <a
+              className="p-2 px-5 transition-all  duration-300 no-underline hover:underline hover:decoration-4
+            hover:underline-offset-2 decoration-hotPink  "
+              href="https://www.linkedin.com/in/amorea/"
+              target="_blank"
+            >
               LinkedIn
             </a>
           </li>
           <li className="w-full">
-            <a className="p-2 px-5 hover:shadow-md hover:rounded-md transition-all duration-300" href="https://github.com/amorea9" target="_blank">
+            <a
+              className="p-2 px-5 transition-all  duration-300 no-underline hover:underline hover:decoration-4
+            hover:underline-offset-2 decoration-hotPink "
+              href="https://github.com/amorea9"
+              target="_blank"
+            >
               Github
             </a>
           </li>
           <li className="w-full">
-            <a className="p-2 px-5 hover:shadow-md hover:rounded-md transition-all duration-300" href="mailto:a.amore9393@gmail.com">
+            <a
+              className="p-2 px-5 transition-all  duration-300 no-underline hover:underline hover:decoration-4
+            hover:underline-offset-2 decoration-hotPink "
+              href="mailto:a.amore9393@gmail.com"
+            >
               E-mail
             </a>
           </li>
