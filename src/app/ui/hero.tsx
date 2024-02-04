@@ -10,7 +10,7 @@ export default function Hero() {
         <div className=" flex flex-col gap-4 text-center sm:text-left px-5">
           <h1 className={`text-4xl font-bold py-5 leading-10 text-center sm:text-left   md:text-4xl lg:leading-base ${libreBaskerville.className}`}>
             <em>Hello,</em>
-            <br />I am Alessia!
+            <br />I am <span className="text-hotPink">Alessia</span>!
           </h1>
           <p className="text-center md:text-left lg:text-base">
             A multimedia design graduate <br />
@@ -19,7 +19,10 @@ export default function Hero() {
           <p className="text-center md:text-left  lg:text-base">
             Want to share ideas with <em>me?</em>
           </p>
-          <a className="bg-limeGreen text-black mt-5 py-3 px-5 flex justify-center items-center self-center lg:text-lg rounded-md text-sm text-center font-medium hover:bg-lime-300" href="index.html#contact">
+          <a
+            className="bg-hotPink border-none  text-almostWhite mt-5 py-3 px-5 flex justify-center items-center self-center lg:text-lg rounded-md text-sm text-center font-medium transition-all duration-300  hover:bg-opacity-70 hover:shadow-md"
+            href="#contact"
+          >
             Send me a message
           </a>
         </div>

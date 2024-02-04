@@ -6,7 +6,7 @@ export default function Smiley() {
       <svg id="smiley" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 300 300" width="150" height="150" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
         <g id="smiley_tr" transform="translate(150,150) rotate(-0.042945)">
           <g transform="scale(1.832125,1.832125) translate(-150.133247,-150.000007)">
-            <ellipse id="face" rx="74.746846" ry="74.746846" transform="translate(150.133242 150)" fill="transparent" stroke-width="0" className="hover:fill-limeGreen duration-1000 transition-all" />
+            <ellipse id="face" rx="74.746846" ry="74.746846" transform="translate(150.133242 150)" fill="transparent" stroke-width="0" className="hover:fill-lime-300 duration-1000 transition-all hover:shadow-md" />
             <ellipse id="right_eye" rx="6.262213" ry="6.262213" transform="matrix(.978409 0 0 1.978718 174.116184 128.308754)" stroke-width="0" />
             <ellipse id="left_eye" rx="6.262213" ry="6.262213" transform="matrix(.973735 0 0 1.978717 126.150293 128.308759)" stroke-width="0" />
             <path

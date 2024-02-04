@@ -8,19 +8,21 @@ export interface Project {
   alt: string;
   cta: string;
   year: number;
+  role: string;
 }
 
 const projects: Project[] = [
   {
     id: 1,
-    title: "Cookie Bakery",
-    description: "Description of Cookie",
+    title: "OMHU Webshop",
+    description: "This solution was build as a project for 'OMHU', a danish furniture shop, to help them increase their brand recognition and popularity. This was a group project.",
     imageSrc: "/cookie-bakery.png",
     imageWidth: 300,
     imageHeight: 300,
     alt: "Cookie Bakery image",
     cta: "Have a cookie here!",
     year: 2022,
+    role: "main dev",
   },
   {
     id: 2,
@@ -32,6 +34,7 @@ const projects: Project[] = [
     alt: "Cookiww image",
     cta: "Have a to do here!",
     year: 2021,
+    role: "designer",
   },
   // Add more projects as needed
 ];

@@ -11,6 +11,11 @@ const config: Config = {
       colors: {
         mintGreen: "#64efbc",
         limeGreen: "#71f424",
+        hotPink: "#D32866",
+        spentMagenta: "#8A4265",
+        almostWhite: "#FBFBFB",
+        maroon: "#5E2C44",
+        warmGrey: "#F1EFEF",
       },
     },
   },

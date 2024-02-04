@@ -11,18 +11,30 @@ export default function NavMenu() {
         </Link> */}
         <ul className="flex flex-row justify-between items-center sm:mx-4 gap-3">
           <li>
-            <a className="p-2" href="#about">
+            <a
+              className="p-2 transition-all  duration-300 no-underline hover:underline hover:decoration-4
+            hover:underline-offset-2 decoration-hotPink  "
+              href="#about"
+            >
               about
             </a>
           </li>
           <li>
-            <a className="p-2" href="#projects">
+            <a
+              className="p-2 transition-all duration-300 no-underline hover:underline hover:decoration-4
+            hover:underline-offset-2 decoration-hotPink "
+              href="#projects"
+            >
               projects
             </a>
           </li>
 
           <li>
-            <a className="p-2" href="#contact">
+            <a
+              className="p-2 transition-all duration-300 no-underline hover:underline hover:decoration-4
+            hover:underline-offset-2 decoration-hotPink "
+              href="#contact"
+            >
               contact
             </a>
           </li>
