@@ -58,7 +58,7 @@ const projects: Project[] = [
     title: "FooFest Companion App",
     description:
       "This is the second part of the FooFest project. This solution was buildt to be experienced only in mobile view as it should resemble a real phone app. The Companion App is thought to be accessible only for FooFest ticket owners and its goal is to feature live events at the festival and showcase useful information like schedules and artists profiles.",
-    imageSrc: "/FooFestApp.png",
+    imageSrc: "/FooFestApp3.png",
     imageWidth: 300,
     imageHeight: 300,
     alt: "FooFest App pic",
@@ -71,7 +71,7 @@ const projects: Project[] = [
     id: 5,
     title: "CO2kie Bakery",
     description: "This project was a small case assignment with the theme 'sustainability'. Together with another developer, we buildt a website that helps you understand how much CO2 is emitted based on your daily number of google searches.",
-    imageSrc: "/cookie2.png",
+    imageSrc: "/Cookie5.png",
     imageWidth: 300,
     imageHeight: 300,
     alt: "Cookie Bakery pic",
