@@ -57,7 +57,7 @@ const projects: Project[] = [
     id: 4,
     title: "FooFest Companion App",
     description:
-      "This is the second part of the FooFest project. This solution was buildt to be experienced only in mobile view as it should resemble a real phone app. The Companion App is thought to be accessible only for FooFest ticket owners and its goal is to feature live events at the festival and showcase useful information like schedules and artists profiles.",
+      "This is the second part of the FooFest project. The Companion App is thought to be available only to FooFest ticket owners and its goal is to feature live events at the festival and showcase useful information like schedules and artists profiles. Best experienced in mobile view.",
     imageSrc: "/FooFestApp3.png",
     imageWidth: 300,
     imageHeight: 300,
