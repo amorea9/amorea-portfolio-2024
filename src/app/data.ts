@@ -16,7 +16,7 @@ const projects: Project[] = [
   {
     id: 1,
     title: "OMHU Webshop",
-    description: "This solution was build as a group project for 'OMHU', a danish furniture shop. The goal was to help them increase their brand recognition and improve the usability of their webshop.",
+    description: "This solution was built as a group project for 'OMHU', a danish furniture shop. The goal was to help them increase their brand recognition and improve the usability of their webshop.",
     imageSrc: "/Omhu.png",
     imageWidth: 300,
     imageHeight: 300,
@@ -29,7 +29,7 @@ const projects: Project[] = [
   {
     id: 2,
     title: "ReactTacToe",
-    description: "I buildt this classic game in my free time, with the goal of studying race conditions and for an ultimate battle: me vs The Code.",
+    description: "I built this classic game in my free time, with the goal of studying race conditions and for an ultimate battle: me vs The Code.",
     imageSrc: "/RTT.png",
     imageWidth: 300,
     imageHeight: 300,
@@ -70,7 +70,7 @@ const projects: Project[] = [
   {
     id: 5,
     title: "CO2kie Bakery",
-    description: "This project was a small case assignment with the theme 'sustainability'. Together with another developer, we buildt a website that helps you understand how much CO2 is emitted based on your daily number of google searches.",
+    description: "This project was a small case assignment with the theme 'sustainability'. Together with another developer, we built a website that helps you understand how much CO2 is emitted based on your daily number of google searches.",
     imageSrc: "/Cookie5.png",
     imageWidth: 300,
     imageHeight: 300,
