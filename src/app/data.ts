@@ -43,7 +43,7 @@ const projects: Project[] = [
     id: 3,
     title: "CO2kie Bakery",
     description: "This project was a small case assignment with the theme 'sustainability'. Together with another developer, we buildt a website that helps you understand how much CO2 is emitted based on your daily number of google searches.",
-    imageSrc: "/cookie-bakery.png",
+    imageSrc: "/cookie2.png",
     imageWidth: 300,
     imageHeight: 300,
     alt: "Cookie Bakery pic",
