@@ -40,6 +40,12 @@ body {
   }
 }
 
+@media only screen and (min-width: 2040px) {
+  #smiley {
+    height: 12.5rem;
+  }
+}
+
 #face {
   stroke-width: 1px;
   stroke: rgb(127, 127, 127);
