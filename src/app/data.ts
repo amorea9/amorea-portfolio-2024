@@ -48,7 +48,7 @@ const projects: Project[] = [
     imageWidth: 300,
     imageHeight: 300,
     alt: "FooFest Website pic",
-    ctaText: "Book your tickets",
+    ctaText: "Check out the headliners",
     ctaLink: "https://foofest-booking-2.netlify.app/",
     year: 2023,
     role: "dev",
