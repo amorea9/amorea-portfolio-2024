@@ -22,7 +22,7 @@ export default function SingleProject({ project }: SingleProjectProps) {
           </span>
         </div>
         <div className="mx-3 flex h-60 overflow-hidden rounded-xl sm:col-start-1 sm:min-h-64 relative">
-          <Image src={project.imageSrc} layout="fill" objectFit="cover" alt={project.alt} />
+          <Image src={project.imageSrc} layout="fill" objectFit="cover" alt={project.alt} className="aspect-square" />
         </div>
         {/* </div> */}
         <div className="px-5 mb-5 pt-1 sm:mb-0  flex flex-col gap-5  sm:max-w-xs grow sm:row-start-1  sm:row-span-2 sm:col-start-2 sm:p-2 sm:gap-4">

@@ -8,13 +8,15 @@ import Skills from "./ui/skills";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between divide-y-[1px]  divide-opacity-80 max-w-screen-2xl mx-auto">
+    <main className="">
       <NavMenu />
-      <Hero />
-      <About />
-      <Skills />
-      <Projects />
-      <Footer />
+      <div id="pageContent" className=" flex min-h-screen flex-col items-center justify-between divide-y-[1px]  divide-opacity-80 max-w-screen-2xl mx-auto">
+        <Hero />
+        <About />
+        <Skills />
+        <Projects />
+        <Footer />
+      </div>
     </main>
   );
 }
