@@ -3,7 +3,7 @@ import { libreBaskerville } from "./fonts";
 
 export default function About() {
   return (
-    <div id="about" className="h-fit pt-10 xl:pt-5 scroll-m-14 2xl:min-h-full">
+    <div id="about" className="h-fit pt-10 xl:pt-5 scroll-m-14 2xl:min-h-full 2xl:mx-[500px]">
       <article id="about_article" className="flex flex-col items-left mx-10  pb-20 gap-8 h-full sm:grid sm:grid-cols-2 sm:justify-items-center  lg:flex-row lg:mx-56 lg:pt-10  lg:gap-x-16 sm:items-start sm:gap-y-16 md:gap-x-8">
         <h2 className={`text-center text-3xl pb-5  col-span-2 ${libreBaskerville.className}`}>About</h2>
         <div className="lineArt sm:scale-[1.2] sm:rounded-full lg:p-32  xl:p-36 col-start-1 ">

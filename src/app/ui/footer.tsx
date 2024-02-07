@@ -3,7 +3,7 @@ import { libreBaskerville } from "./fonts";
 
 export default function Footer() {
   return (
-    <div id="footer" className="pt-10 pb-16 mx-10 h-full w-full">
+    <div id="footer" className="pt-10 pb-16 mx-10 h-full w-full 2xl:mx-[500px]">
       <nav id="contact" className="flex flex-col items-center gap-8">
         <ul id="footer_list" className="flex w-full flex-col items-center gap-8  md:justify-center lg:py-2 lg:gap-10 text-center md:flex-row">
           <li className="w-full md:w-fit">
