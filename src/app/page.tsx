@@ -8,7 +8,7 @@ import Skills from "./ui/skills";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between divide-y-[1px]  divide-opacity-80 max-w-screen-2xl ">
+    <main className="flex min-h-screen flex-col items-center justify-between divide-y-[1px]  divide-opacity-80 max-w-screen-2xl mx-auto">
       <NavMenu />
       <Hero />
       <About />
